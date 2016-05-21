@@ -1,0 +1,55 @@
+
+  /*подключаем основные шрифты*/
+@font-face {   
+    font-family: 'Montserrat'; 
+    src: url('../font/Montserrat-Regular.otf') format('opentype'); 
+    font-weight: 400;
+   }
+
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url('../font/Montserrat-Bold.otf'); 
+    font-weight: 700;
+   }
+
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url('../font/Montserrat-Light.otf'); 
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url('../font/Montserrat-SemiBold.otf'); 
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Montserrat'; 
+    src: url('../font/Montserrat-UltraLight.otf'); 
+    font-weight: 200;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+@import "variables.scss";
+@import "header.scss";
+@import "buttons.scss";
+@import "content.scss";
+@import "footer.scss";
+
+html {
+	font-family: $font;
+	font-size: $html-size-base;
+	color: #fff;
+	
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+}
+

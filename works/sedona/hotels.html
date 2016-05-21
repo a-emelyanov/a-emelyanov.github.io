@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+    <title>SEDONA</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="container clearfix">
+     <nav class="main-menu">
+        <a href="index.html">
+       <img class="logo" src="img/menu-logo.png" width="138" height="70" alt="logo">
+        </a>
+      <ul>
+        <li ><a href="index.html">информация</a></li>
+        <li><a href="#">фото и видео</a></li>
+        <li><a href="#">logo</a></li>
+        <li><a href="#">карта штата</a></li>
+        <li class="active"><a href="#">гостиницы</a></li>
+      </ul>
+    </nav>
+
+       
+      </div>
+    </header>
+    <section class="filter-hotel"> 
+    <div class="container clearfix">
+      <form class="search-form infro">
+        <p>инфроструктура</p>
+       
+        <input type="checkbox" name="infro-pool" id="infro-pool">
+         <label for="infro-pool">бассейн</label>
+         
+        <input type="checkbox" name="infro-parking" id="infro-parking">
+        <label for="infro-parking">парковка</label>
+         
+        <input type="checkbox" name="infro-wifi" id="infro-wifi">
+       <label for="infro-wifi">wi-fi</label>
+      </form>
+      
+      <form class="search-form type">
+        <p>тип жилья</p>
+        
+        <input type="checkbox" name="type-hotel" id="type-hotel">
+                <label for="type-hotel">гостинница</label>
+        <input type="checkbox" name="type-motel" id="type-motel">
+                 <label for="type-motel">мотель</label>
+        <input type="checkbox" name="type-apartments" id="type-apartments">
+               <label for="type-apartments">апартаменты</label>
+      </form>
+      
+      <div class="filter-range">
+        <p>стоимость в сутки</p>
+         <div class="price-controls"> <!--инпуты с ценами -->
+              <label class="min-price">от <input  type="text" pattern="[0-9]{,6}" value="0" maxlength="6"></label>
+              <label class="max-price">до <input  type="text" pattern="[0-9]{,6}" value="3 000" maxlength="6"></label>
+            </div>
+        <div class="range-controls"> <!--ползунок-->
+            <div class="scale"><div style="width:70%;" class="bar">  </div></div>
+                <div class="toggle min-toggle"></div>
+                <div class="toggle max-toggle"></div>
+         </div>
+      </div>
+      
+     </div>   
+    </section>
+    <div class="sorting-hotel">
+      <div class="container clearfix">
+      <h2>Найдено: 3</h2>
+      <ul class="sorting-list">
+        <p >сортировка:</p>
+        <li class="sorting-price select-sorting">по цене</li>
+        <li class="sorting-type">по типу</li>
+        <li class="sorting-rating">по рейтингу</li>
+      </ul>
+        <div class="sorting-hotel-bottom selected"></div>
+        <div class="sorting-hotel-top"></div>
+         
+        </div>
+    </div>
+    <section class="hotels-content">
+    
+      <div class="hotel">
+        <div class="container clearfix">
+        <img src="img/hotel-amara.png" width="135" height="90" alt="amara resort">
+        <div class="hotel-item">
+          <a href="#" class="hotel-title">Amara Resort & Spa</a>
+          <p class="hotel-type">гостинница</p>
+          <p class="hotel-price">от 3500 р.</p>
+          <a href="#" class="btn btn-detail">подробнее</a>
+          <a href="#" class="btn btn-booking">забронировать</a>
+        </div>
+          
+          <div class="hotel-rating">
+            <ul class="hotel-stars">
+              <li class="disabled"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul> 
+            <p>рейтинг: 8,5</p>
+         
+      </div>
+      
+        </div>
+    </div>
+      
+      <div class="hotel"> <!--2-->
+        <div class="container clearfix">
+        <img src="img/hotel-desert.png" width="135" height="90" alt="Desert Quail Inn">
+        <div class="hotel-item">
+          <a href="#" class="hotel-title">Desert Quail Inn</a>
+          <p class="hotel-type">мотель</p>
+          <p class="hotel-price">от 2000 р.</p>
+          <a href="#" class="btn btn-detail">подробнее</a>
+          <a href="#" class="btn btn-booking">забронировать</a>
+        </div>
+          
+          <div class="hotel-rating">
+            <ul class="hotel-stars">
+              <li class="disabled"></li>
+              <li class="disabled"></li>
+              <li class="disabled"></li>
+              <li></li>
+              <li></li>
+            </ul> 
+            <p>рейтинг: 8,9</p>
+           </div>
+       </div>
+    </div>
+      
+      
+      <div class="hotel"> <!--3-->
+        <div class="container clearfix">
+        <img src="img/hotel-villas.png" width="135" height="90" alt="Villas at Poco Diablo">
+        <div class="hotel-item">
+          <a href="#" class="hotel-title">Villas at Poco Diablo</a>
+          <p class="hotel-type">апартаменты</p>
+          <p class="hotel-price">от 4000 р.</p>
+          <a href="#" class="btn btn-detail">подробнее</a>
+          <a href="#" class="btn btn-booking">забронировать</a>
+        </div>
+          
+          <div class="hotel-rating">
+            <ul class="hotel-stars">
+              <li class="disabled"></li>
+              <li class="disabled"></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul> 
+            <p>рейтинг: 9,2</p>
+         
+      </div>
+      
+        </div>
+    </div>
+      
+    </section>
+    
+ 
+
+
+    <footer class="main-footer">
+       <div class="container clearfix">
+         <div class="footer-content">
+           <h2>#VISITSEDONA</h2>
+         </div>
+         <div class="footer-content">
+           <ul>
+             <a href="#"><li class="social"><div class="sprite sprite-twitter"></div></li></a>
+           <a href="#"><li><div class="sprite sprite-facebook"></div></li></a>
+           <a href="#"><li><div class="sprite sprite-youtube"></div></li></a>
+           </ul>
+         </div>
+         <div class="footer-content">
+           <h3>website by</h3>
+           <a href="#"><div class="sprite sprite-designer"></div></a>
+           <h3>for</h3>
+            <a href="#"><div class="sprite sprite-academy"></div></a>
+         </div>
+      </div>
+    <footer>
+
+
+    </body>
+</html>

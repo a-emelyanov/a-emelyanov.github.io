@@ -1,0 +1,136 @@
+.main-footer {
+	padding:25px 0;	
+	background-color:$beige-darck;
+}
+
+.main-footer__inner {
+	max-width: $container;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content:flex-start;
+	align-content: baseline;
+	align-items:center;
+
+	@media (min-width: 768px) and (max-width: 960px) {
+		& {
+			width: 768px;
+			align-items:center;
+			justify-content:space-between;
+			align-content: baseline;
+		}
+	}
+
+	@media (max-width: 767px) {
+		& {
+			max-width: 600px;
+			align-items:center;
+			justify-content:space-between;
+			align-content: baseline;
+		}
+	}
+
+	@media (max-width: 599px) {
+		& {
+			max-width: 480px;
+		
+		}
+	}
+
+	@media (max-width: 479px) {
+		& {
+			width: 320px;
+		}
+	}
+}
+
+.main-footer__copyrights {
+	display: inline-block;
+	width: 50%;
+	padding-left: 9%;
+	font-size: $font-size;
+	line-height: 1;
+	font-weight: 300;
+	color: $grey;
+
+	@media (max-width: 960px) {
+		& {
+			padding-left: 6%;
+		}
+	}
+
+	@media (max-width: 599px) {
+		& {
+			padding-left: 12px;
+		}
+	}
+
+	@media (max-width: 599px) {
+		& {
+			display: none;
+		}
+	}
+	
+}
+
+.main-footer__contact-wrap {
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+
+		@media (max-width: 960px) {
+			& {
+				padding-right: 6%;
+			}
+		}
+
+		@media (max-width: 599px) {
+		& {
+			padding-right: 12px;
+		}
+	}
+
+		@media (max-width: 599px) {
+		& {
+			margin: 0 auto;
+		}
+	}
+
+	
+	
+	a {
+		display: inline-block;
+		margin: 0;
+		padding: 0;
+		font-size: $font-size;
+		line-height: 1;
+		font-weight: 300;
+		color: $grey;
+		vertical-align: middle;
+	}
+
+	.main-footer__contact-icon {
+		display: inline-block;
+		margin-right: 10px;
+		width: 35px;
+		height: 35px;
+		background: url("../img/icon-mail.png") center no-repeat;
+		vertical-align: middle;
+
+		@media (max-width: 599px) {
+		& {
+			width: 30px;
+			height: 30px;
+			margin-right: 0;
+			background-size: contain;
+		}
+	}
+
+
+	}
+
+	&:hover .main-footer__contact-icon {
+		background: url("../img/icon-mail--hover.png") center no-repeat;
+		background-size: contain;
+	}
+}

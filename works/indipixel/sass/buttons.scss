@@ -1,0 +1,70 @@
+.btn {
+	display: block;
+	font-size: $font-size--big;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 5px;
+
+}
+
+.btn--contact {
+	width: 166px;
+	padding: 16px 0;
+	background-color: $yellow;
+	margin-bottom: 130px;
+
+	@media (max-width: 479px) {
+		& {
+			margin-bottom: 90px;
+		}
+	}
+
+	&:hover {
+		background-color: $green-light;
+	}
+}
+
+.btn--form {
+	width: 120px;
+	padding: 10px 0;
+	margin-left: 403px;
+	margin-bottom: 30px;
+	background-color: $green-light;
+	border:none;
+	outline: none;
+	box-shadow: none;
+	cursor: pointer;
+
+	&:hover {
+		background-color: $yellow;
+	}
+
+	
+
+	@media (max-width: 1200px) {
+				& {
+					margin-left: 67%;
+					}
+			}
+
+	@media (width: 1024px) {
+				& {
+					margin-left: 330px;
+					}
+			}
+	@media (max-width: 960px) {
+				& {
+					margin-left: 539px;
+					}
+			}
+	@media (max-width: 767px) {
+				& {
+					margin:0 auto;
+					margin-bottom: 30px;
+					}
+			}
+
+}
+

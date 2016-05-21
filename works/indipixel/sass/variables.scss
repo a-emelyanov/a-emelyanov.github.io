@@ -1,0 +1,30 @@
+
+/*---цвета---*/
+$carrot: #ef5350;		/*цвет фона*/
+$carrot-lighter: #ff8a80;
+$green: #04e4a2;		/*полоска хеадера*/
+$green-light: #1de9b6;	/*кнопка send*/
+$yellow: #ffb74d;       /*кнопка contact*/
+$yellow-light: #fdd835;
+$beige: #f9fbe8;		/*текст контента хеадера*/
+$beige-darck: #fefcf2; 	/*футер*/
+$blue: #e3f2fd; 		/*рамка input*/
+$grey: #636363;			/*текст input*/
+
+$link-color: $beige;
+$link-color--hover: darken($link-color,15%);
+
+/*текст*/
+$font: 'Montserrat', sans-serif;
+$html-size-base: 10px;
+$font-size:	1.6rem;
+$font-size--big:1.8rem;
+$font-size--h2: 3rem;
+
+$container: 1200px;
+
+$phone-width:388px;	/*размер телефона*/
+$phone-height:814px;
+
+$screen-width:329px;		/*размер экрана телефона*/
+$screen-height:583px;

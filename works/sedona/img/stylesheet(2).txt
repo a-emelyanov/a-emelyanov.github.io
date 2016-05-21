@@ -1,0 +1,239 @@
+.sprite {
+  
+ background-image: url(spritesheet.png);
+    
+background-repeat: no-repeat;
+    display: block;
+}
+
+
+
+.sprite-academy {
+    width: 27px;
+    height: 33px;
+    background-position: -20px -20px;
+}
+
+
+
+.sprite-academy-active {
+    width: 27px;
+    height: 33px;
+    background-position: -87px -20px;
+}
+
+
+
+.sprite-academy-hover {
+    width: 27px;
+    height: 33px;
+    background-position: -154px -20px;
+}
+
+
+
+.sprite-check {
+    width: 20px;
+    height: 20px;
+    background-position: -221px -20px;
+}
+
+
+
+.sprite-designer-logo {
+    width: 27px;
+    height: 30px;
+    background-position: -281px -20px;
+}
+
+
+
+.sprite-designer-logo-active {
+    width: 27px;
+    height: 30px;
+    background-position: -221px -90px;
+}
+
+
+
+.sprite-designer-logo-hvr {
+    width: 27px;
+    height: 30px;
+    background-position: -288px -90px;
+}
+
+
+
+.sprite-facebook {
+    width: 9px;
+    height: 19px;
+    background-position: -20px -160px;
+}
+
+
+
+.sprite-food {
+    width: 74px;
+    height: 70px;
+    background-position: -69px -160px;
+}
+
+
+
+.sprite-form-calendar {
+    width: 20px;
+    height: 22px;
+    background-position: -183px -160px;
+}
+
+
+
+.sprite-form-calendar-active {
+    width: 20px;
+    height: 22px;
+    background-position: -243px -160px;
+}
+
+
+
+.sprite-form-calendar-hvr {
+    width: 20px;
+    height: 22px;
+    background-position: -303px -160px;
+}
+
+
+
+.sprite-form-minus {
+    width: 11px;
+    height: 3px;
+    background-position: -183px -222px;
+}
+
+
+
+.sprite-form-minus-active {
+    width: 11px;
+    height: 3px;
+    background-position: -234px -222px;
+}
+
+
+
+.sprite-form-minus-hvr {
+    width: 11px;
+    height: 3px;
+    background-position: -285px -222px;
+}
+
+
+
+.sprite-form-plus {
+    width: 11px;
+    height: 11px;
+    background-position: -183px -265px;
+}
+
+
+
+.sprite-form-plus-active {
+    width: 11px;
+    height: 11px;
+    background-position: -234px -265px;
+}
+
+
+
+.sprite-form-plus-hvr {
+    width: 11px;
+    height: 11px;
+    background-position: -285px -265px;
+}
+
+
+
+.sprite-gift {
+    width: 64px;
+    height: 76px;
+    background-position: -355px -20px;
+}
+
+
+
+.sprite-house {
+    width: 75px;
+    height: 72px;
+    background-position: -336px -222px;
+}
+
+
+
+.sprite-sort-bottom {
+    width: 9px;
+    height: 9px;
+    background-position: -363px -136px;
+}
+
+
+
+.sprite-sort-bottom-active {
+    width: 9px;
+    height: 9px;
+    background-position: -412px -136px;
+}
+
+
+
+.sprite-sort-bottom-hvr {
+    width: 9px;
+    height: 9px;
+    background-position: -20px -334px;
+}
+
+
+
+.sprite-sort-top {
+    width: 9px;
+    height: 9px;
+    background-position: -69px -334px;
+}
+
+
+
+.sprite-sort-top-active {
+    width: 9px;
+    height: 9px;
+    background-position: -118px -334px;
+}
+
+
+
+.sprite-sort-top-hvr {
+    width: 9px;
+    height: 9px;
+    background-position: -167px -334px;
+}
+
+
+
+.sprite-star {
+    width: 17px;
+    height: 16px;
+    background-position: -216px -334px;
+}
+
+
+
+.sprite-twitter {
+    width: 19px;
+    height: 15px;
+    background-position: -273px -334px;
+}
+
+
+
+.sprite-youtube {
+    width: 20px;
+    height: 14px;
+    background-position: -332px -334px;
+}

@@ -609,11 +609,11 @@ a {
 }
 
 .slide:nth-child(2) {
-  background:url("http://s7.uploads.ru/d/yMCDx.png") no-repeat center;
+  background:url("../img/slider-2.png") no-repeat center;
 }
 
 .slide:nth-child(1) {
-  background:url("http://s2.uploads.ru/d/TF6EX.png") no-repeat center;
+  background:url("../img/slider-1.png") no-repeat center;
 }
 
 .slide {
@@ -756,7 +756,7 @@ a {
     z-index:20;
 }
 .product-item .flag-new {
-  background:url("http://s2.uploads.ru/d/XEqm4.png") no-repeat 0 0;
+  background:url("../img/flag-new.png") no-repeat 0 0;
 }
 .product-item .actions {
   position:absolute;
@@ -956,13 +956,13 @@ color: #fff;
 }
 
 .services-slide:nth-child(1) {
-  background:url("http://s2.uploads.ru/d/8svRe.png") no-repeat right 24px;
+  background:url("../img/services-slide-1.png") no-repeat right 24px;
 }
 .services-slide:nth-child(2) {
-  background:url("http://s7.uploads.ru/d/4Yuex.png") no-repeat right 0;
+  background:url("../img/services-slide-2.png") no-repeat right 0;
 }
 .services-slide:nth-child(3) {
-  background:url("http://s7.uploads.ru/d/VCQJO.png") no-repeat right 0;
+  background:url("../img/services-slide-3.png") no-repeat right 0;
 }
 
 

@@ -1,0 +1,466 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+/*---цвета---*/
+/*фон*/
+/*текст основной*/
+/*текст */
+/*footer*/
+/*текст футера*/
+/*текст заголовка фктера*/
+/*текст*/
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.main-header {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #565656;
+  /*& .container {
+			display: flex;
+			justify-content:space-between;
+			flex-wrap:wrap;
+		}*/
+}
+
+.main-header__logo-wrap {
+  width: 25%;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+
+.icon-intensedebate {
+  font-size: 95px;
+  line-height: 1;
+}
+
+.main-nav {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-bottom: 205px;
+  padding-top: 65px;
+  width: 75%;
+}
+
+.main-nav::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 5px;
+  background-color: #1de9b6;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  display: inline-block;
+  margin: 0;
+  margin-right: 25px;
+}
+
+.main-nav__item a {
+  position: relative;
+  font-size: 1.5rem;
+  line-height: 36px;
+  color: #959595;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.main-nav__item a:hover {
+  color: #565656;
+}
+
+.main-nav__item a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #565656;
+}
+
+.main-header__text {
+  width: 100%;
+  margin-bottom: 155px;
+  margin-left: 25%;
+  font-size: 3rem;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.myself-block {
+  background-color: #ef5350;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.myself-block__title, .portfolio-block__title, .main-footer__title {
+  position: relative;
+  padding-top: 20px;
+  width: 25%;
+  font-size: 1.4rem;
+  line-height: 18px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.myself-block__title::before, .portfolio-block__title::before, .main-footer__title::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 75%;
+  border: 1px dashed #1de9b6;
+}
+
+.skills {
+  width: 75%;
+}
+
+.skills__list, .works__list, .contacts__list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0;
+}
+
+.skills__item {
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  padding: 30px 10px;
+  margin-bottom: 40px;
+  font-size: 1.4rem;
+  line-height: 18px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  border: 3px solid #1de9b6;
+  border-radius: 5px;
+}
+
+.skills__item span {
+  font-size: 1.2rem;
+}
+
+.skills__item [class*="icon-"] {
+  width: 100%;
+  display: block;
+  margin-bottom: 40px;
+}
+
+.skills__item [class*="icon-"]::before {
+  font-size: 45px;
+  line-height: 1;
+  color: #fff;
+}
+
+.skills_item--learning {
+  padding-top: 115px;
+  opacity: .4;
+  border-color: #474747;
+}
+
+.portfolio-block {
+  background-color: #e3e0e0;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.portfolio-block__title {
+  /*position: relative;
+	padding-top: 20px;
+	width: 25%;
+	font-size: $font-size;
+	line-height: 18px;
+	font-weight: 600;
+	color: $grey-34;
+	text-transform: uppercase;*/
+  color: #565656;
+}
+
+.portfolio-block__title::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 75%;
+  border: 1px dashed #565656;
+}
+
+.works {
+  width: 75%;
+}
+
+.works__item {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 40px;
+  width: 24%;
+  max-height: 285px;
+  border: 3px solid #fff;
+}
+
+.works__item img {
+  width: 100%;
+  height: auto;
+}
+
+.works__item span {
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: 0px;
+  font-size: 1.2rem;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  overflow: hidden;
+  transition: all .4s;
+  z-index: 10;
+}
+
+.works__item:hover span {
+  bottom: 0;
+  height: 80px;
+  color: #ffffff;
+}
+
+.works__over-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  transition: all .7s;
+}
+
+.works__item:hover .works__over-block {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.works__item--project img {
+  margin-top: 35%;
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
+  opacity: 0;
+  transition: all .7s;
+}
+
+.works__item--project:hover img {
+  opacity: .7;
+}
+
+.main-footer {
+  padding: 40px 0;
+  background-color: #171717;
+  color: #474747;
+}
+
+.main-footer .container {
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.main-footer__title {
+  color: #959595;
+}
+
+.main-footer__title::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  width: 75%;
+  border: 1px dashed #959595;
+}
+
+.contacts__list a {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 0;
+  margin-right: 50px;
+  color: #fff;
+}
+
+.contacts__list a:hover {
+  color: #1de9b6;
+}
+
+.contacts__list [class*="icon-"]::before {
+  font-size: 45px;
+  line-height: 1;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?6193167");
+  src: url("../font/fontello.eot?6193167#iefix") format("embedded-opentype"), url("../font/fontello.woff2?6193167") format("woff2"), url("../font/fontello.woff?6193167") format("woff"), url("../font/fontello.ttf?6193167") format("truetype"), url("../font/fontello.svg?6193167#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?6193167#fontello') format('svg');
+  }
+}
+*/
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-dropbox:before {
+  content: '\e800';
+}
+
+/* '' */
+.icon-html5-1:before {
+  content: '\e801';
+}
+
+/* '' */
+.icon-email:before {
+  content: '\e802';
+}
+
+/* '' */
+.icon-chrome:before {
+  content: '\e803';
+}
+
+/* '' */
+.icon-picture:before {
+  content: '\e804';
+}
+
+/* '' */
+.icon-file-code:before {
+  content: '\e805';
+}
+
+/* '' */
+.icon-cubes:before {
+  content: '\e806';
+}
+
+/* '' */
+.icon-buysellads:before {
+  content: '\e807';
+}
+
+/* '' */
+.icon-css3:before {
+  content: '\e808';
+}
+
+/* '' */
+.icon-mobile:before {
+  content: '\e809';
+}
+
+/* '' */
+.icon-monitor:before {
+  content: '\e80a';
+}
+
+/* '' */
+.icon-puzzle-outline:before {
+  content: '\e80b';
+}
+
+/* '' */
+.icon-wrench:before {
+  content: '\e80c';
+}
+
+/* '' */
+.icon-vk-1:before {
+  content: '\e80d';
+}
+
+/* '' */
+.icon-intensedebate:before {
+  content: '\e80e';
+}
+
+/* '' */

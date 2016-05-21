@@ -1,7 +1,84 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Портфолио</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<header class="main-header">
+		<div class="container">
+			<div class="main-header__logo-wrap">
+				<i class="icon-intensedebate"></i>
+			</div>
+			<nav class="main-nav">
+			<ul class="main-nav__list">
+				<li class="main-nav__item"><a href="#my-skill">знания</a></li>
+				<li class="main-nav__item"><a href="#my-works">портфолио</a></li>
+				<li class="main-nav__item"><a href="#my-contacts">контакты</a></li>
+			</ul>
+			</nav>
+
+			<h2 class="main-header__text">Здравствуйте.<br>Я начинающий front-end разработчик. Постоянно совершенствую свои навыки, активно развиваясь как специалист.<br>В портфолио Вы можете посмотреть примеры моих работ.</h2>
+		</div>
+	</header>
+
+<section class="myself-block" id="my-skill">
+	<div class="container">
+		<div class="myself-block__title">Навыки и умения</div>
+		<div class="skills">
+
+			<ul class="skills__list">
+				<li class="skills__item"><i class="icon-chrome"></i>Семантически грамотная, валидная, кросбраузерная верстка</li>
+				<li class="skills__item"><i class="icon-picture"></i>Верстаю в максимальном соответствии с макетом</li>
+				<li class="skills__item"><i class="icon-buysellads"></i>Уверенное владение Adobe Photoshop</li>
+				<li class="skills__item"><i class="icon-monitor"></i>Адаптивная и отзывчивая верстка</li>
+				<li class="skills__item"><i class="icon-dropbox"></i>Использование спецификации FLEXBOX</li>
+				<li class="skills__item"><i class="icon-puzzle-outline"></i>Умение работать с графикой (спрайты, иконочные шрифты)</li>
+				<li class="skills__item"><i class="icon-file-code"></i>Использование в работе CSS-предпроцессора SASS</li>
+				<li class="skills__item"><i class="icon-cubes"></i>Использование методологии БЭМ (на уровне именования классов)</li>
+				<li class="skills__item"><i class="icon-wrench"></i>Знание JavaScript и jQuery <br><span>(в процессе освоения)</span><br>на уровне открытия модальных окон, всплывающих форм</li>
+			</ul>
+			
+		</div>
+
+
+	</div>
+</section>
+
+<section class="portfolio-block" id="my-works">
+	<div class="container">
+		<div class="portfolio-block__title">Работы</div>
+		<div class="works">
+			<ul class="works__list">
+				<li class="works__item"><a href="#"><img src="img/sedona.jpg" alt="sedona" width="214" height="285"><div class="works__over-block"></div><span>- адаптивный</span></a></li>
+				<li class="works__item"><a href="#"><img src="img/indipixel.jpg" alt="indipixel" width="214" height="285"><div class="works__over-block"></div><span>- адаптивный<br>- flexbox</span></a></li>
+				<li class="works__item"><a href="#"><img src="img/activebox.jpg" alt="activebox" width="214" height="285"><div class="works__over-block"></div><span>- адаптивный</span></a></li>
+				<li class="works__item"><a href="#"><img src="img/yeaboss.jpg" alt="yeaboss" width="214" height="285"><div class="works__over-block"></div><span>- адаптивный<br>- flexbox</span></span></a></li>
+				<li class="works__item"><a href="#"><img src="img/eden.jpg" alt="eden" width="214" height="285"><div class="works__over-block"></div><span>- адаптивный<br>с применением сетки bootstrap</span></span></a></li>
+				<li class="works__item"><a href="#"><img src="img/nerds.jpg" alt="nerds" width="214" height="285"><div class="works__over-block"></div><span>Одна из первых работ<br>- Не адаптивный<br>- Работа с формами, модальными окнами, интерактивными картами</span></a></li>
+				<li class="works__item"><a href="#"><img src="img/technomart.jpg" alt="technomart" width="214" height="285"><div class="works__over-block"></div><span>Одна из первых работ<br> - Не адаптивный<br> - Слайдер на чистом CSS</span></a></li>
+				<li class="works__item "><a href="#"></a></li>
+				
+			</ul>
+		</div>
+	</div>
+</section>
+
+<footer class="main-footer" id="my-contacts">
+	<div class="container">
+		<div class="main-footer__title">контакты</div>
+		<div class="contacts">
+			<ul class="contacts__list">
+				<li class="contacts__item"><a href="http://vk.com/id4635187" class="icon-vk-1"></a></li>
+				<li class="contacts__item"><a href="mailto:dron.e@mail.ru" class="icon-email"></a><</li> 
+			</ul>
+		</div>
+	</div>
+</footer>
+
 </body>
 </html>

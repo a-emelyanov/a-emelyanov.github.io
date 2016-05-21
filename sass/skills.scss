@@ -1,0 +1,83 @@
+.myself-block {
+	background-color: $carrot;
+	padding-top:100px;
+	padding-bottom: 60px;
+}
+
+.myself-block__title {
+	position: relative;
+	padding-top: 20px;
+	width: 25%;
+	font-size: $font-size;
+	line-height: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+
+		&::before {
+			position: absolute;
+			content: "";
+			top: 0;
+			width: 75%;
+			border:1px dashed $green;
+		}
+
+}
+
+.skills {
+	width: 75%;
+
+}
+
+.skills__list {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 0;
+		
+}
+
+.skills__item  {
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	padding: 30px 10px;
+	margin-bottom: 40px;
+	font-size: $font-size;
+	line-height: 18px;
+	text-align: center;
+	font-weight: 600;
+	color: #fff;
+	border:3px solid $green ;
+	border-radius: 5px;
+	
+	& span {
+		font-size: $font-size--small;
+	}
+
+
+	& {
+		[class*="icon-"] {
+			width: 100%;
+			display: block;
+			margin-bottom: 40px;
+		}
+
+		[class*="icon-"]::before {
+			
+			font-size: 45px;
+			line-height: 1;
+			color: #fff;
+		}
+	}
+
+}
+
+.skills_item--learning {
+	padding-top: 115px;
+	opacity: .4;
+	border-color: $grey-28;
+}

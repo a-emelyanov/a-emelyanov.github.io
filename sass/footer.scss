@@ -1,0 +1,48 @@
+.main-footer {
+	padding: 40px 0;
+	background-color: $grey-darck;
+	color:$grey-28;
+
+	.container {
+	justify-content:flex-start;
+	}
+}
+
+.main-footer__title {
+	@extend .myself-block__title ;
+	color: $grey-58;
+
+	&::before {
+			position: absolute;
+			content: "";
+			top: 0;
+			width: 75%;
+			border:1px dashed $grey-58;
+		}
+}
+
+.contacts__list {
+	@extend .skills__list;
+	
+	a {
+		position: relative;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		font-size: 0;
+		margin-right: 50px;
+		color: #fff;
+
+		&:hover {
+			color: $green;
+		}
+	}
+
+	[class*="icon-"]::before {
+			font-size: 45px;
+			line-height: 1;
+
+		
+
+	}
+}

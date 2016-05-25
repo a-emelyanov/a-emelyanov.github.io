@@ -1,0 +1,171 @@
+.main-footer {
+	padding-top: 25px;
+	position: relative;
+	background-color: #fff;
+
+	&::before {
+		@extend .main-header::before;
+		top:-5px;
+	}
+
+	.logo-wrap {
+		margin-top: 10px;
+	}
+}
+
+
+
+.main-footer__item {
+	margin-bottom: 25px;
+
+	.contact__phone {
+		font-size: 22px;
+		line-height: 30px;
+		font-weight: 300;
+
+		span {
+			font-weight: 400;
+		}
+	}
+
+	.contact__mail {
+		font-size: $font-size--small;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	.contact__address {
+		margin-top: 10px;
+		font-family: 'Roboto';
+		font-size: $font-size--small;
+		line-height: 21px;
+		font-weight: 400;
+		color:#000;
+	}
+
+	.icon-phone::before {
+		font-size: 18px;
+		line-height: 30px;
+		margin-right: 10px;
+		color: $grey-icon;	
+	}
+
+	.icon-mail-alt:before {
+		margin: 0;
+		margin-right: 15px;
+		font-size: 14px;
+		line-height: 30px;
+		color: $grey-icon;	
+		
+	}
+
+	.icon-location::before {
+		margin: 0;
+		margin-right: 10px;
+		margin-left: -5px;
+		font-size: 25px;
+		line-height: 30px;
+		color: $grey-icon;	
+	}
+}
+
+
+
+
+
+.social-block {
+	text-align: center;
+
+	a {
+		margin-top: 10px;
+		display: block;
+		font-size: 13px;
+		font-weight: 400;
+		text-decoration: underline;
+		color: $blue-68;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.social__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 0;
+
+	li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 10px;
+	}
+}
+
+.socical__link {
+	display: block;
+	text-align: center;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	
+
+	[class*="icon-"] {
+		margin: 0;
+		padding: 0;
+		font-size: 14px;
+		line-height: 25px;
+		color: #fff;
+	}
+}
+
+.social__link--inst {
+	background-color: rgba( 82, 154, 196, 1);
+
+	&:hover {
+		background-color: rgba( 82, 154, 196, .7);
+	}
+}
+
+.social__link--ok {
+
+	background-color: rgba( 255, 119, 0, 1);
+
+	&:hover {
+		background-color: rgba( 255, 119, 0, .7);
+	}
+}
+
+.social__link--fb {
+	
+	background-color: rgba( 5, 75, 147, 1);
+	
+	&:hover {
+	background-color: rgba( 5, 75, 147, .7);
+	}
+}
+
+
+.social__link--vk {
+	background-color: #196d9e;
+	background-color: rgba( 25, 109, 158, 1);
+	&:hover {
+		background-color: rgba( 25, 109, 158, .7);
+	}
+}
+
+
+.copyright {
+	text-align: center;
+	background-color: $grey-92;
+
+	p {
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		line-height: 20px;
+		font-weight: 400;
+	}
+}

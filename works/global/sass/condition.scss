@@ -1,0 +1,65 @@
+.condition {
+	background: url("../img/bg__conditions.jpg") center top no-repeat;
+	background-size: cover;
+
+	h2 {
+		margin-top: 45px;
+		margin-bottom: 45px;
+		font-size: 34px;
+		line-height: 50px;
+		font-weight: 600;
+		text-align: center;
+		color: #fff;
+	
+	}
+}
+
+
+.condition__item {
+	margin-bottom: 50px;
+	text-align: center;
+
+	p {
+		font-family: 'Roboto', sans-serif;
+		font-size: $font-size;
+		line-height: 20px;
+		font-weight: 600;
+		color: #fff;
+	}
+
+	.sprite {
+		margin-bottom: 30px;
+	}
+}
+
+.condition__item-title {
+	margin: 0;
+	margin-bottom: 33px;
+	height: 40px;
+	font-size: $font-size--big;
+	line-height: 28px;
+	font-weight: 400;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.sprite-icon__condition--1 {
+	margin: 0 auto;
+    width: 121px;
+    height: 120px;
+    background-position: -5px -356px;
+}
+
+.sprite-icon__condition--2 {
+	margin: 0 auto;
+    width: 121px;
+    height: 120px;
+    background-position: -5px -486px;
+}
+
+.sprite-icon__condition--3 {
+	margin: 0 auto;
+    width: 121px;
+    height: 120px;
+    background-position: -5px -616px;
+}

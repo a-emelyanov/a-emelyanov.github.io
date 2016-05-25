@@ -1,0 +1,159 @@
+.main-header {
+	position: relative;
+}
+.main-header::before {
+	content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 5px;
+background: linear-gradient(to right, $green-hd  0%, $green-hd 33.333333% , $blue-68 33.333333% , $blue-68 66.666666%, $blue 66.666666%, $blue 100%);
+}
+
+
+.main-header__top-menu {
+	padding-top: 25px;
+	background-color: #fff;
+	vertical-align: middle;
+	
+}
+
+.main-nav {
+	background-color: $grey-93;
+}
+
+.main-header__item {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	font-size: $font-size--big;
+	line-height: 36px;
+	font-weight: 300;
+	color: $grey;
+
+		strong {
+			font-weight: 600;
+			color: $blue-68;
+		}
+
+		[class*="icon-"]::before {
+			color: $grey-icon;
+			
+		}
+}
+
+.main-nav__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.main-nav__item {
+	padding: 8px 0;
+	text-align: center;
+
+	&:hover {
+		background-color: $blue-64;
+
+		a {
+			color: #fff;
+		}
+
+	&:hover  .main-nav__outside-list {
+		display: block;
+	}
+
+	}
+
+
+	a {	display: block;
+		font-size: 1.5rem;
+		line-height: 36px;
+		font-weight: normal;
+		color: #25262a;
+		text-transform: uppercase;
+	}
+}
+
+
+.main-nav__outside-list {
+	display: none;
+	position: absolute;
+	width: 100%;
+	top:100%;
+	@extend .main-nav__list;
+	box-shadow: 0px 10px 15px -1px rgba(0, 0, 0, 0.5);
+	z-index: 10;
+}
+
+	
+.main-nav__outside-item {
+	 	
+		text-align: left;
+		background-color: $blue-light;
+		border-top: 1px solid $blue-light;
+		border-bottom: 1px solid $blue-light;
+
+		&:hover {
+			border-top: 1px solid #1a88ac;
+			border-bottom: 1px solid #1a88ac;
+			background-color: $blue-64;
+		}
+
+	a {
+		display: block;
+		padding: 11px 0;
+	 	padding-left: 23px;
+		font-size: $font-size;
+		line-height: 23px;
+		font-weight: normal;
+		color: #fff;
+		text-transform: none;
+		text-align: left;
+		
+	}
+
+}
+
+.contact__phone {
+	margin: 0;
+	padding: 0;
+	font-size: 2.8rem;
+	line-height: 30px;
+	font-weight: 300;
+	color: $green-light;
+		
+		span {
+			font-weight: 400;
+		}
+}
+
+.icon-phone::before {
+		padding: 0;
+		margin: 0;
+		margin-right: 15px;
+		font-size: 22px; 
+		line-height: 30px;
+	}
+
+.contact__mail {
+	margin: 0;
+	font-size: $font-size;
+	line-height: 30px;
+	font-weight: 300;
+	color: $blue-68;
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.icon-mail-alt::before {
+	font-size: 14px;
+	line-height: 1;
+	margin-right: 20px;
+}

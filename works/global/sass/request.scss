@@ -1,0 +1,62 @@
+.request {
+	padding-top: 20px;
+	background: url("../img/bg__request.png") left center no-repeat,
+				rgba( 233, 233, 234, 1);
+	background-size: auto;
+}
+
+.request__picture {
+	text-align: right;
+	/*img {
+		width: 100%;
+		height: auto;
+		background-size: contain;
+	}*/
+}
+
+.reauest__item {
+
+	h2 {
+		margin-top: 25px;
+		margin-bottom: 0;
+		padding-left: 5px;
+		font-size: 40px;
+		line-height: 52px;
+		font-weight: 400;
+		color: $blue-68;
+	}
+
+	p {
+		margin: 0;
+		padding: 0;
+		margin-bottom: 55px;
+		padding-left: 5px;
+		font-size: 31px;
+		line-height: 41px;
+		font-weight: 300;
+		color: $blue-68;
+	}
+
+	span {
+		text-transform: uppercase;
+		color: $green-hd;
+	}
+}
+
+.request__form {
+
+	input[type="tel"] {
+		width: 100%;
+		margin-bottom: 22px;
+		padding: 0 20px;
+		font-family: inherit;
+		font-size: $font-size;
+		line-height: 41px;
+		font-weight: 400;
+		border-radius: 5px;
+		box-shadow: none;
+		outline:none;
+		border:none;
+	}
+}
+

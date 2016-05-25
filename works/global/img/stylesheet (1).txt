@@ -1,0 +1,107 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-icon__adv--1 {
+    width: 108px;
+    height: 107px;
+    background-position: -5px -5px;
+}
+
+.sprite-icon__adv--2 {
+    width: 108px;
+    height: 107px;
+    background-position: -5px -122px;
+}
+
+.sprite-icon__adv--3 {
+    width: 108px;
+    height: 107px;
+    background-position: -5px -239px;
+}
+
+.sprite-icon__condition--1 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -356px;
+}
+
+.sprite-icon__condition--2 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -486px;
+}
+
+.sprite-icon__condition--3 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -616px;
+}
+
+.sprite-icon__order--1 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -746px;
+}
+
+.sprite-icon__order--2 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -876px;
+}
+
+.sprite-icon__order--3 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -1006px;
+}
+
+.sprite-icon__order-item--2 {
+    width: 64px;
+    height: 49px;
+    background-position: -5px -1136px;
+}
+
+.sprite-icon__order-item-1 {
+    width: 93px;
+    height: 52px;
+    background-position: -5px -1195px;
+}
+
+.sprite-icon__problems--1 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -1257px;
+}
+
+.sprite-icon__problems--2 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -1387px;
+}
+
+.sprite-icon__rarrow--next {
+    width: 18px;
+    height: 81px;
+    background-position: -5px -1517px;
+}
+
+.sprite-icon__rarrow--prev {
+    width: 18px;
+    height: 81px;
+    background-position: -5px -1608px;
+}
+
+.sprite-icon__sarrow--next2 {
+    width: 11px;
+    height: 34px;
+    background-position: -5px -1699px;
+}
+
+.sprite-icon__sarrow-multi--prev {
+    width: 11px;
+    height: 34px;
+    background-position: -5px -1743px;
+}

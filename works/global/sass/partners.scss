@@ -1,0 +1,36 @@
+.partners {
+	padding-bottom: 70px;
+	background-color: #ededed;
+	
+	h2 {
+		margin-top: 45px;
+		margin-bottom: 50px;
+		font-size: 31px;
+		line-height: 50px;
+		font-weight: 600;
+		text-align: center;
+		color: $blue;
+	}
+
+
+	.container {
+		font-size: 0;
+		line-height: 0;
+	}
+}
+
+.partners__item {
+	display: inline-block;
+	width: 200px;
+	margin: 0;
+	margin-right: 30px;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+}

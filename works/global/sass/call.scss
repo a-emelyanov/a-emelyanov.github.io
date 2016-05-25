@@ -1,0 +1,25 @@
+.call {
+	background: url("../img/bg__call--small.jpg") center top repeat-x;
+	
+
+	h2 {
+		margin-top: 20px;
+		margin-bottom: 30px;
+		font-size: 43px;
+		line-height: 30px;
+		color: $blue;
+		font-weight: 300;
+		text-align: center;
+
+		strong {
+			font-size: 40px;
+			line-height: 59px;
+			color: #fff;
+			font-weight: 700;
+		}
+
+		span {
+			font-weight: 400;
+		}
+	}
+}

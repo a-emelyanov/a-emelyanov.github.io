@@ -1,0 +1,144 @@
+  @import "variables.scss";
+
+* {
+	box-sizing: border-box;
+}
+
+
+html {
+	font-family: $font;
+	font-size: $html-size-base;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-Regular.eot?v=1.1.0");
+    src: url("../font/OpenSans-Regular.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../font/OpenSans-Regular.woff2?v=1.1.0") format("woff2"), url("../font/OpenSans-Regular.woff?v=1.1.0") format("woff"), url("../font/OpenSans-Regular.ttf?v=1.1.0") format("truetype"), url("../font/OpenSans-Regular.svg?v=1.1.0#Regular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-Semibold.eot?v=1.1.0");
+    src: url("../font/OpenSans-Semibold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../font/OpenSans-Semibold.woff2?v=1.1.0") format("woff2"), url("../font/OpenSans-Semibold.woff?v=1.1.0") format("woff"), url("../font/OpenSans-Semibold.ttf?v=1.1.0") format("truetype"), url("../font/OpenSans-Semibold.svg?v=1.1.0#Semibold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-Light.eot?v=1.1.0");
+    src: url("../font/OpenSans-Light.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../font/OpenSans-Light.woff2?v=1.1.0") format("woff2"), url("../font/OpenSans-Light.woff?v=1.1.0") format("woff"), url("../font/OpenSans-Light.ttf?v=1.1.0") format("truetype"), url("../font/OpenSans-Light.svg?v=1.1.0#Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-Bold.eot?v=1.1.0");
+    src: url("../font/OpenSans-Bold.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../font/OpenSans-Bold.woff2?v=1.1.0") format("woff2"), url("../font/OpenSans-Bold.woff?v=1.1.0") format("woff"), url("../font/OpenSans-Bold.ttf?v=1.1.0") format("truetype"), url("../font/OpenSans-Bold.svg?v=1.1.0#Bold") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url("../font/OpenSans-Italic.eot?v=1.1.0");
+    src: url("../font/OpenSans-Italic.eot?#iefix&v=1.1.0") format("embedded-opentype"), url("../font/OpenSans-Italic.woff2?v=1.1.0") format("woff2"), url("../font/OpenSans-Italic.woff?v=1.1.0") format("woff"), url("../font/OpenSans-Italic.ttf?v=1.1.0") format("truetype"), url("../font/OpenSans-Italic.svg?v=1.1.0#Italic") format("svg");
+    font-weight: normal;
+    font-style: italic;
+}
+
+/*---------иконочный шрифт -------------------*/
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?54818054');
+  src: url('../font/fontello.eot?54818054#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?54818054') format('woff2'),
+       url('../font/fontello.woff?54818054') format('woff'),
+       url('../font/fontello.ttf?54818054') format('truetype'),
+       url('../font/fontello.svg?54818054#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?54818054#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-mail-alt:before { content: '\e800'; } /* '' */
+.icon-phone:before { content: '\e801'; } /* '' */
+.icon-location:before { content: '\e802'; } /* '' */
+.icon-vkontakte:before { content: '\e803'; } /* '' */
+.icon-instagram:before { content: '\e804'; } /* '' */
+.icon-facebook:before { content: '\e805'; } /* '' */
+.icon-odnoklassniki:before { content: '\e806'; } /* '' */
+.icon-right-open-big:before { content: '\e807'; } /* '' */
+.icon-left-open-big:before { content: '\e808'; } /* '' */
+.icon-rouble:before { content: '\e809'; } /* '' */
+.icon-left-open-mini:before { content: '\e80a'; } /* '' */
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+@import "header.scss";
+@import "slider.scss";
+@import "advantage.scss";
+@import "condition.scss";
+@import "problems.scss";
+@import "features.scss";
+@import "speach.scss";
+@import "partners.scss";
+@import "comments.scss";
+@import "call.scss";
+@import "order.scss";
+@import "request.scss";
+@import "btn.scss";
+@import  "footer.scss";

@@ -1,0 +1,61 @@
+.speach {
+	padding-top: 60px;
+	padding-bottom: 117px;
+	background: url("../img/bg__speach.jpg") center top no-repeat;
+	background-size: cover;
+	
+	.container {
+		position: relative;
+	}
+}
+
+
+.speach__item {
+	background-color: #fff;
+	z-index: 2;
+}
+
+.speach__logo-wrap {
+	margin-bottom: 25px;
+}
+
+.speach__title {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-size: $font-size--lg;
+	line-height: 25px;
+	font-weight: 700;
+	color:#000;
+}
+
+.speach__text {
+	margin: 0;
+	margin-bottom: 65px;
+	font-size: $font-size;
+	line-height: 25px;
+	font-weight: 300;
+	color: #000;
+	text-align:justify;
+
+}
+
+
+.speach__author {
+	padding: 0;
+	margin-top: 15px;
+	font-size: $font-size;
+	line-height: 25px;
+	font-weight: 700;
+	color: #000;
+
+}
+
+.speach__shadow {
+	position: absolute;
+	right: 175px;
+    top: 48px;
+	width: 330px;
+    height: 330px;
+    background: rgba(0,130,173, 0.5);
+    z-index: 1;
+}

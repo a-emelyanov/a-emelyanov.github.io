@@ -1,0 +1,78 @@
+.problems {
+	padding-bottom: 20px;
+	background: url("../img/bg__problems.jpg") center top no-repeat;
+	background-size: cover;
+
+	h2 {
+		margin-top: 47px;
+		margin-bottom: 0;
+		font-size: 34px;
+		line-height: 45px;
+		font-weight: 700;
+		text-align: left;
+		color: $green;
+	}
+
+}	 
+
+.problems__text {
+		margin-bottom: 50px;
+		font-size: 18px;
+		line-height: 25px;
+		font-weight: 400;
+		text-align: left;
+		color: #000;
+
+		span {
+			font-weight: 700;
+		}
+	
+}
+
+.problems__item  {
+	position: relative;
+	margin-bottom: 55px;
+	padding-left: 155px;
+	height: 120px;
+
+	.sprite {
+		position: absolute;
+		display: block;
+		left: 20px;
+		top: 0;
+	}
+
+}
+	
+.problems__item-text {
+		margin: 0;
+		font-size: 14px;
+		line-height: 20px;
+		font-weight: 400;
+		text-align: left;
+		color: #000;
+	
+}
+
+.problems__item-title {
+		margin: 0;
+		margin-top: 15px;
+		font-family: 'Roboto', sans-serif;
+		font-size: $font-size;
+		line-height: 20px;
+		font-weight: 600;
+		color: #000;
+		text-transform: uppercase;
+}
+
+.sprite-icon__problems--1 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -1257px;
+}
+
+.sprite-icon__problems--2 {
+    width: 121px;
+    height: 120px;
+    background-position: -5px -1387px;
+}

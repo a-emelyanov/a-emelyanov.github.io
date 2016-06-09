@@ -1,0 +1,49 @@
+.clients {
+	background-color: #fff;
+}
+
+.clients__item {
+	margin-top: 80px;
+
+}
+.clients__title {
+	margin: 0;
+	font-size: 36px;
+	line-height: 1;
+	font-weight: 700;
+	color: $blue;
+
+	@media (max-width: 480px) {
+		text-align: center;
+		}
+}
+
+.clients__text {
+	margin: 0;
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: $grey;
+
+	@media (max-width: 480px) {
+		text-align: justify;
+
+		}
+}
+
+.clients__logo {
+	margin-top: 95px;
+
+	img {
+		width: 100%;
+		height: auto;
+		
+	}
+
+
+	@media (max-width: 480px) {
+		margin-top: 50px;
+
+	}
+}

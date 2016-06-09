@@ -1,0 +1,151 @@
+.main-footer {
+	background-color: #363855;
+	
+	.container {
+		position: relative;
+		background: url("../img/bg--footer.png") left center no-repeat,
+				#363855;
+
+				@media (max-width:768px) {
+					background-size: contain;
+				}
+	}
+}
+
+.main-footer__wrap {
+	text-align: right;
+}
+
+.footer-menu__title {
+	    margin-top: 135px;
+	font-size: 18px;
+	line-height: 36px;
+	font-weight: 700;
+	color:#fff;
+}
+
+.footer-menu__list,
+.social__list  {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-menu__link {
+	position: relative;
+	font-size: 16px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #fff;
+	
+
+	&::after {
+		content: "";
+		position: absolute;
+		display: block;
+		bottom: -5px;
+		right: 0;
+		width: 60px;
+		height: 1px;
+		background-color: #fff;
+		opacity: .5;
+	}
+}
+
+.social__list  {
+	margin-top: 30px;
+	margin-bottom: 55px;
+	font-size: 0;
+	line-height: 0;
+	li {
+		display: inline-block;
+		margin-right: 15px;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.social__link {
+	display: inline-block;
+	font-family: "fontello";
+	font-size: 18px;
+	line-height: 1;
+	color: $yellow;
+}
+
+.social__link--tw::before {
+	content: '\e803';
+
+}
+
+.social__link--inst::before {
+	content: '\e801';
+	
+}
+
+.social__link--gplus::before {
+	content: '\e802';
+	
+}
+
+.main-footer__link {
+	display: inline-block;
+	margin-bottom: 15px;
+	font-size: 12px;
+	line-height: 36px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.copyright__logo {
+	margin: 0 auto;
+	background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+    width: 31px;
+    height: 30px;
+    background-position: -495px -5px;
+}
+
+.copyryght__text {
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.location	{
+	position: absolute;
+	margin-left: 20px;
+	top: 50%;
+	left:50%;
+
+
+	@media (max-width:1024px) {
+	display: none;
+	}
+}
+.location__item {
+	display: inline-block;
+	margin-right: 10px;
+}
+.location__item::before {
+	content: '\e800';
+	 font-family: "fontello";
+	 font-size: 54px;
+	 color:$yellow;
+}
+.location__text {
+	display: inline-block;
+	text-align: left;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #fff;
+
+	@media (max-width:1025px) {
+		font-size: 14px;
+	}
+}

@@ -1,0 +1,85 @@
+.splash {
+	padding-bottom: 140px;
+	text-align: center;
+	background: url("../img/bg--header.jpg") top center no-repeat;
+	color: #fff;
+	vertical-align: top;
+	background-size: cover;
+}
+
+
+.splash__title {
+	margin-top: 230px;
+		font-size: 48px;
+		line-height: 1;
+		font-weight: 400;
+	}
+
+.splash__text {
+	margin-bottom: 55px;
+	font-size: 30px;
+	line-height: 1;
+}
+
+
+.splash__logo {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	 width: 102px;
+    height: 109px;
+    background-image: url("../img/spritesheet.png");
+    background-repeat: no-repeat;
+     background-position: -281px -184px;
+}
+.main-form {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	border: 18px solid #dddddd;
+	font-size: 0;
+	line-height: 0;
+	vertical-align: top;
+
+	@media (max-width: 480px) {
+		border: none;
+		}
+
+	@media (max-width: 320px) {
+		display: none;
+	}
+
+	input {
+		display: inline-block;
+	font-family: inherit;
+	padding: 15px 0;
+	padding-left: 25px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #2d2d2d;
+	border: none;
+	outline: none;
+	vertical-align: top;
+	}
+
+	select {
+		display: inline-block;
+		height: 54px;
+		padding-left: 23px;
+		padding-right: 10px;
+		font-family: inherit;
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 700;
+		outline: none;
+		border: none;
+		background-color: $yellow;
+		vertical-align: top;
+		cursor: pointer;
+
+		&:hover {
+			opacity: .8;
+		}
+
+	}
+}

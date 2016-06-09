@@ -2,6 +2,11 @@ $(document).ready(function() {
 
 
 
+$('.main-content-wrapper').stickyStack({
+        containerElement: '.main-content-wrapper',
+        stackingElement: '#one',
+     });
+
 $('.main-header__title').addClass('animated bounceInDown');
 $('.main-header__text').addClass('animated bounceInDown');
   $('.promo').addClass('animated bounceInRight ');
@@ -37,7 +42,7 @@ $('.btn--coach').AniView();
 $('.column-wrap').AniView();
 $('.media__column-right').AniView() ;
 $('.media__column-left').AniView() ;
-
+$('.btn-wrap').AniView() ;
 
 
 });

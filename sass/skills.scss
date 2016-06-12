@@ -37,6 +37,12 @@
 		padding: 0;
 		list-style: none;
 		font-size: 0;
+
+		@media (max-width: 868px) {
+		justify-content:space-around;
+		
+	}
+		
 		
 }
 
@@ -44,6 +50,7 @@
 	position: relative;
 	display: inline-block;
 	width: 30%;
+	min-width: 200px;
 	padding: 30px 10px;
 	margin-bottom: 40px;
 	font-size: $font-size;

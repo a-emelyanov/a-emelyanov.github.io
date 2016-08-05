@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>TEST</title>
+</head>
+<body>
+
+<header>
+	<div class="container">
+		<div class="logo">
+			<div class="logo__wrapper">
+				<img src="img/logo.jpg" alt="">
+			</div>
+			<h1 class="logo__title">Adobe<br>Photoshop</h1>
+		</div>
+
+		<div class="options">
+			<div class="search">
+				<label for="search">Поиск по сайту<i class="icon-down"></i><i class="icon-up"></i></label>
+				<input type="search" name="search" placeholder="Поиск по сайту">
+			</div>
+			<div class="lang">
+					<a class="btn btn--main" href="#">Русский</a></li>
+					<ul class="lang__list">
+						<li class="lang__item"><a class="btn btn--lang" href="#">Englich</a></li>
+						<li class="lang__item"><a class="btn btn--lang" href="#">Казакша</a></li>
+						<li class="lang__item"><a class="btn btn--lang" href="#">Deutsch</a></li>
+					</ul>
+			</div>
+			</div>
+	</div>
+</header>
+	<section class="features">
+		<div class="container">
+			<div class="features__item">
+				<div class="img-wrapper">
+					<img src="" alt="">
+				</div>
+				<p>Продукт является<br>лидером рынка в<br>области коммерческих<br>средств редактирования<br>растровых изображений</p>
+			</div>
+			<div class="features__item">
+				<div class="img-wrapper">
+					<img src="" alt="">
+				</div>
+				<p>Продукт является<br>лидером рынка в<br>области коммерческих<br>средств редактирования<br>растровых изображений</p>
+			</div>
+			<div class="features__item">
+				<div class="img-wrapper">
+					<img src="" alt="">
+				</div>
+				<p>Продукт является<br>лидером рынка в<br>области коммерческих<br>средств редактирования<br>растровых изображений</p>
+			</div>
+			<div class="features__item">
+				<div class="img-wrapper">
+					<img src="" alt="">
+				</div>
+				<p>Продукт является<br>лидером рынка в<br>области коммерческих<br>средств редактирования<br>растровых изображений</p>
+		</div>
+	</section>
+
+	<section class="tabs">
+		<div class="container">
+			<div class="tabs__item">
+				<ul class="tabs__caption">
+					<li class="active">новости</li>
+    				<li>события</li>
+				</ul>
+			
+				<div class="tabs__wrapper  active">		
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Название</h3>
+							<p>Часто эту программу<br>называют просто Photoshop</p>
+						</div>
+					</div>
+
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Особенности</h3>
+							<p>Несмотря на то, что<br>изначально программа</p>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="tabs__wrapper">		
+
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Особенности</h3>
+							<p>Несмотря на то, что<br>изначально программа</p>
+						</div>
+					</div>
+
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Название</h3>
+							<p>Часто эту программу<br>называют просто Photoshop</p>
+						</div>
+					</div>
+				
+				</div>
+			</div>	
+				<div class="tabs__item">
+				<ul class="tabs__caption">
+					<li class="active">новости</li>
+    				<li>события</li>
+				</ul>
+
+
+					<div class="tabs__wrapper  active">		
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Название</h3>
+							<p>Часто эту программу<br>называют просто Photoshop</p>
+						</div>
+					</div>
+
+					<div class="tabs__content">
+					    <a href="#" class="btn btn--tabs">читать далее</a>
+					</div>
+				</div>
+
+
+				<div class="tabs__wrapper">		
+
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Особенности</h3>
+							<p>Несмотря на то, что<br>изначально программа</p>
+						</div>
+					</div>
+
+					<div class="tabs__content">
+					    <div class="img-wrapper">
+							<img src="" alt="">
+						</div>
+						<div class="text-wrapper">
+							<h3 class="tabs__title">Название</h3>
+							<p>Часто эту программу<br>называют просто Photoshop</p>
+						</div>
+					</div>
+				
+				</div>
+			</div>
+
+		</div>
+	</section>
+	
+
+
+<script>
+
+$(document).ready(function(){
+  $('ul.tabs__caption').on('click', 'li:not(.active)', function() {
+    $(this)
+      .addClass('active').siblings().removeClass('active')
+      .closest('div.tabs__item').find('div.tabs__wrapper').removeClass('active').eq($(this).index()).addClass('active');
+  });
+});
+</script>	
+</body>
+</html>
